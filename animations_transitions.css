@@ -1,0 +1,79 @@
+/*question 2 task 1*/
+a {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15pt;
+    color: rgb(124, 69, 36);
+    text-decoration: none;
+    margin: 20px;
+    padding: 20px;
+    background-color: rgb(223, 222, 222);
+    border-radius: 20pt;
+    
+}
+
+a:hover {
+    text-shadow: 2px 2px 4px rgb(48, 22, 5);
+    color: blanchedalmond;
+    text-decoration: underline;
+    background-color: rgb(63, 63, 63);
+    border-radius: 15pt;
+    transition: background-color 0.2s ease;
+}
+
+nav {
+    text-align: center;
+    padding: 20px;
+}
+
+body {
+    text-align: center;
+}
+
+/*question 2 task 2*/
+
+button {
+    padding: 10px;
+    margin: 20px;
+    background-color:rgb(6, 6, 77);
+    color: white;
+    border-radius: 10px;
+}
+
+@keyframes scaleWhenClicked {
+    0% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+button:active {
+    animation: scaleWhenClicked 0.5s forwards;
+}
+
+/*question 2 task 3*/
+@keyframes rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.image {
+    display: flex;
+    justify-content: center;
+    height: 100px;
+    margin: 15px;
+}
+
+.image img {
+    width: 150px;
+    height: 150px;
+    animation: rotate 5s linear infinite;
+}
