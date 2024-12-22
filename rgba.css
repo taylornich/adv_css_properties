@@ -1,0 +1,33 @@
+body {
+    background-color: azure;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+/*question 1 task 1*/
+.background-fade {
+    background-color: rgba(153, 0, 255, 0.25);
+}
+
+/*question 1 task 2*/
+header {
+    color: white;
+    text-shadow: 2px 2px 4px rgba(30, 23, 32, 0.932);
+}
+
+/*question 1 task 3*/
+button {
+    background-color: rgb(167, 36, 255);
+    border-radius: 15px;
+}
+
+button:hover {
+    background-color: rgba(150, 147, 151, 0.329);
+    box-shadow: 0 0 15px;
+}
+
+footer {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(30, 88, 99);
+}
